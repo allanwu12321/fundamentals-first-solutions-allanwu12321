@@ -25,3 +25,5 @@ Here's a quick guide to get you started: [Set up Visual Studio Code](https://cod
 With all that being said, we'll go over more specifics on how assignments work, how submissions work, and how feedback is given on our first Workshop date!
 
 For now, you can check out the "\_\_sample\_\_" directory to see a sample of what files a typical web application would contain. The code inside is pretty basic, but we'll go over this all on our first workshop date, as well!
+
+Add testinging line
