@@ -3,6 +3,7 @@
 This assignment is mainly to get you used to our assignment workflow.
 
 1. Were you able to complete the onboarding guide with no issues?
+   Yes.
 
 2. What days do Coding Workshops occur on?
 
