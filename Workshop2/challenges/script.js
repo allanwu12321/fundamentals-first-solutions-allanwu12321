@@ -1,11 +1,39 @@
-// Challenge 1: Temperature Converter
-// Prompt: Write a program that converts temperatures from Celsius to Fahrenheit based on user input
+// // Challenge 1: Temperature Converter
+// // Prompt: Write a program that converts temperatures from Celsius to Fahrenheit based on user input
+// let c = prompt("Provide a temperature in Celsius:");
+// let f = (9 / 5) * C + 32;
+// console.log(c + " degrees Celsius is " + f + " degrees Fahrenheit.");
 
-// Challenge 2: Simple Calculator
-// Prompt: Create a small calculator that performs basic arithmetic operations based on user input
+// // Challenge 2: Simple Calculator
+// // Prompt: Create a small calculator that performs basic arithmetic operations based on user input
+
+// let num1 = parseInt(prompt("Provide a number:"));
+// let num2 = parseInt(prompt("Provide another number:"));
+// let operation = prompt(
+//     "Provide an operation(addition, subtraction, multiplication, division):"
+// );
+
+// if (operation === "addition") {
+//     console.log("result: " + (num1 + num2));
+// } else if (operation === "subtraction") {
+//     console.log("result: " + (num1 - num2));
+// } else if (operation === "multiplication") {
+//     console.log("result: " + num1 * num2);
+// } else if (operation === "division") {
+//     console.log("result: " + num1 / num2);
+// } else {
+//     console.log("Please enter a valid operation");
+// }
 
 // Practice Compound Assignment:
 let x = 7;
+
+x -= 1; // Also works: x-- or --x
+x /= 2;
+x += 14;
+x **= 2;
+x *= 3;
+x %= 13;
 
 console.log(x);
 
