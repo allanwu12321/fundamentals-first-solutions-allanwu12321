@@ -46,6 +46,7 @@ for (let i = 0; i < shapes.length; i++) {
     let currentShape = shapes[i];
     if (currentShape.sides === numSides) {
         foundShape = currentShape;
+        break;
     }
 }
 
