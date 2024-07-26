@@ -1,7 +1,15 @@
 // Demo 1: Nearest Store
 // Write a function nearestStore that takes an array of objects representing stores
 // and returns the id of the store that is closest to the user.
-function nearestStore(stores) {}
+function nearestStore(stores) {
+    let closest = stores[0];
+    for (let i = 1; i < stores.length; i++) {
+        if (stores[i].metersFromUser < closest.metersFromUser) {
+            closest = stores[i];
+        }
+    }
+    return closest.id;
+}
 
 // Examples:
 let stores = [
@@ -18,7 +26,11 @@ console.log(nearestStore(stores)); // Output: 267
 // Write a function logAll that takes an object an logs all of the object's properties
 // and values to the console
 // Example: name: Alice
-function logAll(obj) {}
+function logAll(obj) {
+    for (let key in obj) {
+        console.log(`${key}: ${obj[key]}`);
+    }
+}
 
 let person = {
     name: "Alice",
