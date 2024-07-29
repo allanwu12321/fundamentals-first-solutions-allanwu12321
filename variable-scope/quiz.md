@@ -1,10 +1,13 @@
 # Variable Scope Quiz
 
 1. In JavaScript, where is a variable's scope determined?
+   It is determined when a variable is declared, not initalized.
 
 2. Explain the difference between **global scope** and **block scope**.
+   global scope means that a variable is accessible from **anywhere in the code**. block scope means the variable is accessible from **within the code block it was declared in**.
 
 3. When JavaScript attempts to reference a variable that does not exist or is outside of its scope, what error is thrown?
+   ReferenceError
 
 ## Complete the following problems below having to do with variable scope
 
@@ -22,8 +25,12 @@ Predict the output of the following code:
     console.log(message); // Output?
 
 1. What will `consolelog(message)` inside the `if` statement print?
+   Block Scope
 
 2. What will `consolelog(message)` outside the `if` statement print?
+   Global Scope
+
+3. When two variables have the same name, does **block scope** or **global scope** have more priority?
 
 Run your code and inspect the results. Fix your answers if necessary.
 
@@ -52,14 +59,19 @@ Consider the following code snippet:
 Without actually running this code yet, type below what you think will be logged to the console for each of the 5 labels above:
 
 1. What will the `console.log` at [1] print?
+   "Hi"
 
 2. What will the `console.log` at [2] print?
+   "Bark"
 
 3. What will the `console.log` at [3] print?
+   "Chirp"
 
 4. What will the `console.log` at [4] print?
+   "Hi"
 
 5. What will the `console.log` at [5] print?
+   ReferenceError
 
 After answering the questions above, copy and run the code in the `example` directory and take note of the output. Which ones (if any) did you get wrong?
 
@@ -83,10 +95,15 @@ Consider the following code snippet:
     console.log(name); // [3]
 
 1. What will the `console.log` at [1] print?
+   "Charlie"
 
 2. What will the `console.log` at [2] print?
+   "Bob"
 
 3. What will the `console.log` at [3] print?
+   "Alice"
+
+4. When two variables both have the same name, but are in two block-level scopes, does the inner code block or outer code block take priority? (Hint: For [1], which name printed out?)
 
 After answering the questions above, copy and run the code in the `example` directory and take note of the output.
 
