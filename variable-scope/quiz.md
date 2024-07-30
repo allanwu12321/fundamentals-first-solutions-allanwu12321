@@ -24,10 +24,10 @@ Predict the output of the following code:
 
     console.log(message); // Output?
 
-1. What will `consolelog(message)` inside the `if` statement print?
+1. What will `console.log(message)` inside the `if` statement print?
    Block Scope
 
-2. What will `consolelog(message)` outside the `if` statement print?
+2. What will `console.log(message)` outside the `if` statement print?
    Global Scope
 
 3. When two variables have the same name, does **block scope** or **global scope** have more priority?
@@ -104,6 +104,7 @@ Consider the following code snippet:
    "Alice"
 
 4. When two variables both have the same name, but are in two block-level scopes, does the inner code block or outer code block take priority? (Hint: For [1], which name printed out?)
+   The inner code block
 
 After answering the questions above, copy and run the code in the `example` directory and take note of the output.
 
