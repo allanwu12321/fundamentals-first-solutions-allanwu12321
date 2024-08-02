@@ -1,13 +1,22 @@
 # HTML and CSS Quiz
 
 1.  What is the HTML element for the largest heading (main website heading)?
-    [Replace with Answer]
+
+    ```html
+    <h1></h1>
+    ```
 
 2.  What is the HTML element for inserting a line break?
-    [Replace with Answer]
+
+    ```html
+    <br />
+    ```
 
 3.  What is the HTML element for making a numbered list?
-    [Replace with Answer]
+
+    ```html
+    <ol></ol>
+    ```
 
 4.  Which HTML attribute is for showing alternate text for an image, if it can not be displayed?
 
@@ -16,7 +25,7 @@
     -   **c**. title
     -   **d**. desc
 
-    [Replace with Answer]
+    b
 
 5.  What HTML tag represents the **root element**?
 
@@ -25,7 +34,7 @@
     -   **c**. `<body>`
     -   **d**. `<head>`
 
-    [Replace with Answer]
+    b
 
 6.  What is the correct HTML for referring to an **external style sheet**?
 
@@ -33,7 +42,7 @@
     -   **b**. `<link rel="stylesheet" href="mystyle.css">`
     -   **c**. `<stylesheet>mystyle.css</stylesheet>`
 
-    [Replace with Answer]
+    b
 
 7.  Where in an HTML document is the correct place to refer to an external style sheet?
 
@@ -41,7 +50,7 @@
     -   **b**. At the end of the document
     -   **c**. In the `<body>` section
 
-    [Replace with Answer]
+    a
 
 8.  Which is the correct CSS syntax?
 
@@ -50,16 +59,16 @@
     -   **c**. `body {color: black;}`
     -   **d**. `{body;color:black;}`
 
-    [Replace with Answer]
+    c
 
 9.  Which property is used to change background color?
-    [Replace with Answer]
+    `background-color`
 
 10. Which property is used to change the font of an element?
-    [Replace with Answer]
+    `font-family`
 
 11. Margin controls the space **between an element and it's border**. True or False?
-    [Replace with Answer]
+    False. Padding controls the space between an element and it's border. Margin controls the space outside of an element's border.
 
 ## Tips:
 
