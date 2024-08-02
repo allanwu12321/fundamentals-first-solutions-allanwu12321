@@ -61,7 +61,7 @@ Save `index.html` and inspect your results.
     - set the font weight to `bold`
     - set the top margin to `20px`
 
-10. Create a descendant selector for all `author` class elements inside `testimonial-card` class elements. Inside the new rule set, provide 1 properties:
+10. Create a descendant selector for all `title` class elements inside `testimonial-card` class elements. Inside the new rule set, provide 1 properties:
 
     - set the color to `#777`.
 

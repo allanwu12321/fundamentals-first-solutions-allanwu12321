@@ -9,3 +9,9 @@
  * - Jane Smith's Title
  * - Jane Smith's Profile Image
  */
+
+$("h1").hide();
+$("h2:first").hide();
+$("p:first").hide();
+$("h3:nth(1)").hide();
+$("img:nth(1)").hide();
