@@ -1,0 +1,37 @@
+/* cta-banner.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.cta-banner {
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  width: 500px;
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.cta-banner h1 {
+  margin: 0 0 20px;
+}
+
+/* Students will fill in these styles and selectors */
+
+.cta-banner button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #007bff;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-banner button:hover {
+  background-color: #0056b3;
+  color: white;
+}

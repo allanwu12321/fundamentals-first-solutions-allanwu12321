@@ -1,0 +1,22 @@
+/* cta-banner.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.cta-banner {
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  width: 500px;
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.cta-banner h1 {
+  margin: 0 0 20px;
+}
+
+/* Create new CSS Rule Sets below */

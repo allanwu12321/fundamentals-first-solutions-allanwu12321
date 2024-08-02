@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  color: #777;
+  margin: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add new Rule Sets below: */
+/* CSS Styles: background-color, padding, margin-bottom, border-radius, box-shadow */
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+#description p {
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  color: #555;
+  margin: 16px;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
+
+#ingredients ul {
+  background-color: #e7f3e7;
+  border-radius: 5px;
+  padding: 10px;
+  list-style-position: inside;
+}
+
+#instructions ol {
+  background-color: #f3e7e7;
+  border-radius: 5px;
+  padding: 10px;
+  list-style-position: inside;
+}
