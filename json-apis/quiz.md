@@ -7,11 +7,11 @@
     - C. Application Processing Interface
     - D. Applied Processing Interface
 
-    [Replace with answer]
+    A
 
 2. **True or False: JSON stands for JavaScript Object Notation.**
 
-    - [Replace with answer]
+    - True
 
 3. **In JSON, how are key-value pairs separated?**
 
@@ -20,15 +20,15 @@
     - C. Colon
     - D. Period
 
-    [Replace with answer]
+    C
 
 4. **True or False: The `$.getJSON()` method makes an API Call.**
 
-    - [Replace with answer]
+    True
 
 5. In your own words, describe what "asynchronous" means.
 
-    - [Replace with answer]
+    Synchronous Code runs one line after the other, waiting for one line of code to finish before running the next. Asynchronous code, on the other hand, runs based on certain events occurring. It is "non-blocking", meaning that other code can run while asychronous code runs.
 
 ## Tips:
 
