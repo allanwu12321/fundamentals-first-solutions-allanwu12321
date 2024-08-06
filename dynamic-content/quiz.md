@@ -2,15 +2,21 @@
 
 1. How would yoyu change the text of all elements with the `class` "example" to "Example Text"?
 
-    - [Replace with answer]
+    ```javascript
+    $(".example").text("Example Text");
+    ```
 
 2. How do you change the text of an element with ID "header" to "Welcome"?
 
-    - [Replace with answer]
+    ```javascript
+    $("#header").text("Welcome");
+    ```
 
 3. How would you change the `src` attribute of an image with `id` "image" to `"images/testing-image.jpg"`?
 
-    - [Replace with answer]
+    ```javascript
+    $("#image").attr("src", "images/testing-image.jpg");
+    ```
 
 4. Which jQuery method is used to get the input value from a form input?
 
@@ -19,7 +25,7 @@
 -   C) `val()`
 -   D) `text()`
 
-    [Replace with answer]
+    C
 
 5. Which event gets dispatched by a button when it is clicked?
 
@@ -28,7 +34,7 @@
 -   C) `"clicked"`
 -   D) `"pressed"`
 
-    [Replace with answer]
+    A
 
 ## Tips:
 
